@@ -34,7 +34,7 @@ const AdelBot: React.FC = () => {
         setInputValue('');
         setIsTyping(true);
 
-        // The "Echo/Adel Logic"
+        // The "Ekko Logic"
         setTimeout(() => {
             setIsTyping(false);
             const botResponse: ChatMessage = {
@@ -79,7 +79,7 @@ const AdelBot: React.FC = () => {
                                     >
                                         {msg.sender === 'bot' && (
                                             <div className="flex items-center gap-2 mb-1.5 text-[11px] text-cyan-200/60 font-mono uppercase tracking-widest">
-                                                <Cpu size={12} /> Echo
+                                                <Cpu size={12} /> Ekko
                                             </div>
                                         )}
                                         {msg.text}
@@ -123,7 +123,7 @@ const AdelBot: React.FC = () => {
                             type="text" 
                             value={inputValue}
                             onChange={(e) => setInputValue(e.target.value)}
-                            placeholder="Ask Echo regarding the future..."
+                            placeholder="Ask Ekko regarding the future..."
                             className="flex-grow bg-transparent border-none outline-none text-white font-grotesk placeholder-white/30 text-base h-11 w-full"
                         />
                         <button 
