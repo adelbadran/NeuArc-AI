@@ -12,7 +12,6 @@ const Hero: React.FC = () => {
             >
                 {/* Decorative Pill - Frozen Status */}
                 <div className="mb-8 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-900/10 border border-cyan-200/20 backdrop-blur-md mx-auto shadow-[0_0_15px_rgba(34,211,238,0.1)]">
-                    <span className="text-sm"></span>
                     <span className="text-[10px] md:text-xs font-mono text-cyan-100/80 tracking-widest uppercase">
                         System Status: FROZEN
                     </span>
